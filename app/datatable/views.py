@@ -79,7 +79,7 @@ def api_datatable(request):
         
         # Salvando dados manipulados
         products.append(product_dynamic)
-
+    
     # Json datatable
     products_json = {
         "draw": 1,
